@@ -3,7 +3,7 @@ import {MdPerson as person} from "react-icons/md";
 
 export default{
   name: 'person',                                                           //computer name
-  title: 'SliceMasters',                                                    //visible title
+  title: 'Slicemasters',                                                    //visible title
   type: 'document',
   icon:person,
   fields: [
