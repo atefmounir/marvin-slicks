@@ -39,7 +39,7 @@ export default function SliceMastersPage({data,pageContext}) {
     <>
       <SEO title={`Slice Masters - Page ${pageContext.currentPage || 1}`}/>
       <Pagination
-        base="/slice-masters"
+        base="/slicemasters"
         skip={pageContext.skip}
         currentPage={pageContext.currentPage || 1}
         totalCount={data.sliceMasters.totalCount}

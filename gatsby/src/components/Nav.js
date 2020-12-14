@@ -20,7 +20,7 @@ export default function Nav(props) {
           </Link>
         </li>
         <li>
-          <Link to="/slice-masters">Slice Masters</Link>
+          <Link to="/slicemasters">Slice Masters</Link>
         </li>
         <li>
           <Link to="/order">Order Ahead</Link>
