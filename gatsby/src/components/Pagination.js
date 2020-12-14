@@ -74,7 +74,7 @@ export default function Pagination({pageSize,totalCount,currentPage,skip,base}) 
 
 
 /*
-  className current to let page 1 get highlighted when both slice-masters & slice-masters/1.
+  className current to let page 1 get highlighted when both slicemasters & slicemasters/1.
   conditions are current page is 1 or index=0
 
 */

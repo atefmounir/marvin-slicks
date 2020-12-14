@@ -90,8 +90,8 @@ async function turnSliceMastersIntoPages ({graphql,actions}){
   Array.from({length:pageCount})                                         //create empty array with a length of pageCount. make use of the index
     .forEach((_,i)=>{                                                    //loop over its index to create a dynamic pages
       actions.createPage({                                                  //create dynamic page contains a limited data from a slice masters "pagination"
-        path:`slice-masters/${i+1}`,                                             //to avoid starting from i=0
-        component:path.resolve('./src/pages/slicemasters.js'),      //pagination will be based on slice-masters page "as a template"
+        path:`slicemasters/${i+1}`,                                             //to avoid starting from i=0
+        component:path.resolve('./src/pages/slicemasters.js'),      //pagination will be based on slicemasters page "as a template"
         context:{                                                                //give the context data to be used as variables in page query
           skip:i*pageSize,
           currentPage:i+1,
