@@ -1,0 +1,12 @@
+Note 1 : This project uses Sanity for backend. it has a schemas for each type of data.
+Note 2 : We have built a customized sidebar in the backend.
+Note 3 : Real time data got through fetching data from Sanity graphql endpoint without the need of separate API for that.
+Note 4 : Managing order was through the use of serverless functions of Netlify.
+Note 5 : Custom hook was built for managing order states and get latest data from sanity graphql endpoint.
+Note 6 : Context was built to keep states of order available in the whole app.
+Note 7 : Pagination functionality was built without any additional packages.
+Note 8 : SEO functionality was prepared with the help of react-helmet package.
+Note 9 : Styled component is used in this app.
+Note 10: Don't forget to deploy schema into graphql API
+Note 11: Don't forget to work on Sanity CORS origin to deal with requests browser side.
+nOTE 12: loading state has prepared with animation in home page
